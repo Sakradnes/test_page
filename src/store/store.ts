@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
+//@ts-ignore
 import pageReducer from './slices/page.slice.ts';
 
 const store = configureStore({
